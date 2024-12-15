@@ -1,4 +1,4 @@
-
+import { Note } from "./Notes";
 
 export interface User {
     email:string;
@@ -9,4 +9,13 @@ export interface User {
 export interface RegisterUser extends User{
 
     name: string
+}
+
+export interface LoggedUser {
+
+    id: number;
+    name: string;
+    email: string
+    notes: []
+
 }
