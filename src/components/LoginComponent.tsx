@@ -1,6 +1,6 @@
 import { User } from "../interfaces/User"
 import { useNavigate } from "react-router-dom"
-import { useState, useEffect } from "react"
+import { useState } from "react"
 
 
 export const LoginComponent = ()=>{
